@@ -1,0 +1,83 @@
+{
+  "skills": [
+  {
+    "id": "1",
+    "src": "./img/react.png",
+    "title": "JavaScript (Node.js, React)",
+    "description": "Kinh nghiệm với phát triển web bằng Node.js và React. Đã thực hiện các project CRUD thực tế."
+  },
+  {
+    "id": "2",
+    "src": "./img/python.png",
+    "title": "Python (Django, Flask)",
+    "description": "Sử dụng Python để xây dựng backend, xử lý API và ứng dụng Flask đơn giản."
+  },
+  {
+    "id": "3",
+    "src": "./img/database.png",
+    "title": "Databases",
+    "description": "Thành thạo MySQL, PostgreSQL và MongoDB. Kết nối backend với cơ sở dữ liệu."
+  },
+  {
+    "id": "4",
+    "src": "./img/frontend.png",
+    "title": "Frontend & UI/UX",
+    "description": "Có khả năng thiết kế giao diện với React, HTML, CSS và Flutter. Tối ưu trải nghiệm người dùng."
+  }
+],
+
+
+ "portfolio": [
+  {
+    "id": "1",
+    "src": "./img/profile.png",
+    "title": "Profile of NhanNG",
+    "description": "Profile viết bằng giao diện",
+    "github": "https://github.com/AnhBoHelloTeam/AnhBoHelloTeam.git",
+    "demo": "https://anhbohelloteam.github.io/NhanNGpro5/"
+  },
+  {
+    "id": "2",
+    "src": "./img/reactNen.png",
+    "title": "React Web Shop",
+    "description": "Web ứng dụng bán hàng React + Backend Nodejs + MongoDB.",
+    "github": "https://github.com/AnhBoHelloTeam/Shop_Fontend_REACT.git",
+    "demo": "https://shop-frontend-8yko.onrender.com/"
+  },
+  {
+    "id": "3",
+    "src": "./img/appsize.png",
+    "title": "Flutter Mobile App",
+    "description": "Ứng dụng mua bán hàng hóa cho Mobile.Sử dụng flutter + Backend Nodejs + MongoDB",
+    "github": "https://github.com/AnhBoHelloTeam/Shop_Fontend_Flutter.git",
+    "demo": "https://shop-flutter-1c992.firebaseapp.com/#/home"
+  }
+],
+
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
