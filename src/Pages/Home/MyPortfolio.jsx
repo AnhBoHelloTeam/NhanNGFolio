@@ -1,4 +1,5 @@
 import data from "../../data/index.json";
+import { Link } from "react-router-dom";
 
 export default function MyPortfolio() {
   const buttonStyle = {
@@ -21,6 +22,11 @@ export default function MyPortfolio() {
     backgroundColor: "#0366d6",
   };
 
+  const detailsButtonStyle = {
+    ...buttonStyle,
+    backgroundColor: "#28a745",
+  };
+
   const githubLinkStyle = {
     textDecoration: "none",
   };
@@ -28,7 +34,7 @@ export default function MyPortfolio() {
   const cardStyle = {
     width: "100%",
     maxWidth: "360px",
-    minHeight: "500px", // 👈 card luôn cao đều
+    minHeight: "500px",
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
@@ -41,8 +47,7 @@ export default function MyPortfolio() {
 
   const imageStyle = {
     width: "100%",
-    height: "500px", // 👈 ảnh cố định chiều cao
- 
+    height: "500px",
     borderRadius: "8px",
   };
 
@@ -50,8 +55,8 @@ export default function MyPortfolio() {
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <p className="sub--title">Recent Projects</p>
-          <h2 className="section--heading">My Portfolio</h2>
+          <p className="sub--title">Dự Án Gần Đây</p>
+          <h2 className="section--heading">Danh Mục Dự Án</h2>
         </div>
         <div>
           <a
@@ -61,7 +66,7 @@ export default function MyPortfolio() {
             style={{ textDecoration: "none" }}
           >
             <button
-              className="btn"
+              className="btn btn-github"
               style={{
                 display: "flex",
                 alignItems: "center",
@@ -90,7 +95,7 @@ export default function MyPortfolio() {
                   fill="currentColor"
                 />
               </svg>
-              Visit My GitHub
+              Xem GitHub Của Tôi
             </button>
           </a>
         </div>
@@ -136,6 +141,10 @@ export default function MyPortfolio() {
                 >
                   <button style={demoButtonStyle}>Live Demo</button>
                 </a>
+
+                <Link to={`/portfolio/${item.id}`} style={githubLinkStyle}>
+                  <button style={detailsButtonStyle}>Xem Chi Tiết</button>
+                </Link>
               </div>
             </div>
           </div>

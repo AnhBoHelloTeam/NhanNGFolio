@@ -1,64 +1,124 @@
 {
   "skills": [
-  {
-    "id": "1",
-    "src": "./img/react.png",
-    "title": "JavaScript (Node.js, React)",
-    "description": "Kinh nghiệm với phát triển web bằng Node.js và React. Đã thực hiện các project CRUD thực tế."
-  },
-  {
-    "id": "2",
-    "src": "./img/python.png",
-    "title": "Python (Django, Flask)",
-    "description": "Sử dụng Python để xây dựng backend, xử lý API và ứng dụng Flask đơn giản."
-  },
-  {
-    "id": "3",
-    "src": "./img/database.png",
-    "title": "Databases",
-    "description": "Thành thạo MySQL, PostgreSQL và MongoDB. Kết nối backend với cơ sở dữ liệu."
-  },
-  {
-    "id": "4",
-    "src": "./img/frontend.png",
-    "title": "Frontend & UI/UX",
-    "description": "Có khả năng thiết kế giao diện với React, HTML, CSS và Flutter. Tối ưu trải nghiệm người dùng."
-  }
-],
-
-
- "portfolio": [
-  {
-    "id": "1",
-    "src": "./img/profile.png",
-    "title": "Profile of NhanNG",
-    "description": "Profile viết bằng giao diện",
-    "github": "https://github.com/AnhBoHelloTeam/AnhBoHelloTeam.git",
-    "demo": "https://anhbohelloteam.github.io/NhanNGpro5/"
-  },
-  {
-    "id": "2",
-    "src": "./img/reactNen.png",
-    "title": "React Web Shop",
-    "description": "Web ứng dụng bán hàng React + Backend Nodejs + MongoDB.",
-    "github": "https://github.com/AnhBoHelloTeam/Shop_Fontend_REACT.git",
-    "demo": "https://shop-frontend-8yko.onrender.com/"
-  },
-  {
-    "id": "3",
-    "src": "./img/appsize.png",
-    "title": "Flutter Mobile App",
-    "description": "Ứng dụng mua bán hàng hóa cho Mobile.Sử dụng flutter + Backend Nodejs + MongoDB",
-    "github": "https://github.com/AnhBoHelloTeam/Shop_Fontend_Flutter.git",
-    "demo": "https://shop-flutter-1c992.firebaseapp.com/#/home"
-  }
-],
-
+    {
+      "id": "1",
+      "src": "/img/react.png",
+      "title": "JavaScript (Node.js, React)",
+      "description": "Kinh nghiệm với phát triển web bằng Node.js và React. Đã thực hiện các project CRUD thực tế."
+    },
+    {
+      "id": "2",
+      "src": "/img/python.png",
+      "title": "Python (Django, Flask)",
+      "description": "Sử dụng Python để xây dựng backend, xử lý API và ứng dụng Flask đơn giản."
+    },
+    {
+      "id": "3",
+      "src": "/img/database.png",
+      "title": "Databases",
+      "description": "Thành thạo MySQL, PostgreSQL và MongoDB. Kết nối backend với cơ sở dữ liệu."
+    },
+    {
+      "id": "4",
+      "src": "/img/frontend.png",
+      "title": "Frontend & UI/UX",
+      "description": "Có khả năng thiết kế giao diện với React, HTML, CSS và Flutter. Tối ưu trải nghiệm người dùng."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "/img/profile.png",
+      "title": "Profile of NhanNG",
+      "description": "Một trang hồ sơ cá nhân hiện đại, được thiết kế tối giản nhưng đầy đủ chức năng, sử dụng React và CSS thuần. Trang web giới thiệu kỹ năng, dự án nổi bật và thông tin liên hệ, mang lại trải nghiệm mượt mà trên mọi thiết bị. Tích hợp SEO giúp tăng khả năng hiển thị trên công cụ tìm kiếm.",
+      "github": "https://github.com/AnhBoHelloTeam/AnhBoHelloTeam.git",
+      "demo": "https://anhbohelloteam.github.io/NhanNGpro5/",
+      "loginImages": ["/img/profile.png"],
+      "adminInterfaceImages": ["/img/profile.png"],
+      "userInterfaceImages": ["/img/profile.png"],
+      "additionalImages": ["/img/profile.png"],
+      "features": [
+        "Thiết kế giao diện responsive, tương thích mọi thiết bị",
+        "Tích hợp liên kết mạng xã hội để tăng khả năng kết nối",
+        "Tối ưu hóa SEO với meta tags và cấu trúc HTML chuẩn",
+        "Hiệu ứng chuyển đổi mượt mà với CSS animations",
+        "Tải trang nhanh nhờ tối ưu hóa tài nguyên tĩnh",
+        "Giao diện tối giản, thân thiện với người dùng",
+        "Hỗ trợ đa ngôn ngữ cho khả năng tiếp cận toàn cầu"
+      ]
+    },
+    {
+      "id": "2",
+      "src": "/img/reactNen.png",
+      "title": "React Web Shop",
+      "description": "Một ứng dụng thương mại điện tử mạnh mẽ xây dựng bằng React, Node.js và MongoDB. Trang web cung cấp trải nghiệm mua sắm trực tuyến liền mạch với giao diện admin quản lý sản phẩm và giỏ hàng người dùng. Hệ thống hỗ trợ tìm kiếm, lọc sản phẩm và thanh toán an toàn, mang lại sự tiện lợi tối đa.",
+      "github": "https://github.com/AnhBoHelloTeam/Shop_Fontend_REACT.git",
+      "demo": "https://shop-frontend-8yko.onrender.com/",
+      "loginImages": ["/img/webDT/log1.png", "/img/webDT/log2.png"],
+      "adminInterfaceImages": ["/img/webDT/1.png", "/img/webDT/2.png", "/img/webDT/3.png"],
+      "userInterfaceImages": ["/img/webDT/1.png", "/img/webDT/2.png", "/img/webDT/3.png"],
+      "additionalImages": ["/img/webDT/4.png", "/img/webDT/5.png", "/img/webDT/6.png", "/img/webDT/7.png"],
+      "features": [
+        "Quản lý giỏ hàng với tính năng thêm, sửa, xóa sản phẩm",
+        "Tích hợp thanh toán trực tuyến an toàn qua API bên thứ ba",
+        "Giao diện admin quản lý sản phẩm, đơn hàng và người dùng",
+        "Tìm kiếm và lọc sản phẩm theo danh mục, giá cả",
+        "Hiển thị chi tiết sản phẩm với hình ảnh và mô tả rõ ràng",
+        "Tối ưu hiệu suất với lazy loading và caching",
+        "Hỗ trợ đăng nhập/đăng ký với xác thực JWT",
+        "Giao diện responsive, mượt mà trên cả desktop và mobile"
+      ]
+    },
+    {
+      "id": "3",
+      "src": "/img/appsize.png",
+      "title": "Flutter Mobile App",
+      "description": "Ứng dụng di động thương mại điện tử được phát triển bằng Flutter, kết hợp backend Node.js và MongoDB. Ứng dụng mang đến trải nghiệm mua sắm nhanh chóng, trực quan với giao diện tối ưu cho mobile. Tính năng thông báo đẩy và đặt hàng tức thời giúp người dùng dễ dàng tương tác mọi lúc, mọi nơi.",
+      "github": "https://github.com/AnhBoHelloTeam/Shop_Fontend_Flutter.git",
+      "demo": "https://shop-flutter-1c992.firebaseapp.com/#/home",
+      "loginImages": ["/img/appDT/log1.png", "/img/appDT/log2.png"],
+      "adminInterfaceImages": ["/img/appDT/a1.png", "/img/appDT/a2.png", "/img/appDT/a3.png", "/img/appDT/a4.png", "/img/appDT/a5.png"],
+      "userInterfaceImages": ["/img/appDT/1.png", "/img/appDT/2.png"],
+      "additionalImages": ["/img/appDT/3.png", "/img/appDT/4.png", "/img/appDT/5.png", "/img/appDT/6.png"],
+      "features": [
+        "Đặt hàng nhanh với quy trình thanh toán đơn giản",
+        "Thông báo đẩy về trạng thái đơn hàng và khuyến mãi",
+        "Giao diện người dùng tối ưu, thân thiện trên iOS và Android",
+        "Tích hợp tìm kiếm sản phẩm theo từ khóa và danh mục",
+        "Hỗ trợ quản lý tài khoản người dùng với đăng nhập bảo mật",
+        "Tối ưu hiệu suất ứng dụng với Flutter’s hot reload",
+        "Hiển thị sản phẩm với hình ảnh chất lượng cao",
+        "Hỗ trợ đa ngôn ngữ để tiếp cận người dùng toàn cầu"
+      ]
+    },
+    {
+      "id": "4",
+      "src": "/img/webNestjsDT/home.png",
+      "title": "Fast Food Web App",
+      "description": "Một nền tảng đặt đồ ăn nhanh toàn diện sử dụng NestJS, React và MySQL, cung cấp trải nghiệm người dùng mượt mà và quản lý hiệu quả. Ứng dụng tích hợp các tính năng như đặt hàng, theo dõi đơn hàng, đánh giá sản phẩm và trò chuyện trực tiếp với cửa hàng. Hệ thống khuyến mãi linh hoạt giúp tối ưu hóa doanh thu và sự hài lòng của khách hàng.",
+      "github": "https://github.com/AnhBoHelloTeam/fastfood-app_NetJS_fontent.git",
+      "demo": "https://fastfood-app-netjs-fontent.onrender.com/",
+      "loginImages": ["/img/webNestjsDT/log1.png", "/img/webNestjsDT/log2.png"],
+      "adminInterfaceImages": ["/img/webNestjsDT/home.png", "/img/webNestjsDT/a1.png", "/img/webNestjsDT/a2.png", "/img/webNestjsDT/a3.png", "/img/webNestjsDT/a4.png", "/img/webNestjsDT/a5.png", "/img/webNestjsDT/a6.png"],
+      "userInterfaceImages": ["/img/webNestjsDT/h1.png", "/img/webNestjsDT/home.png", "/img/webNestjsDT/h2.png", "/img/webNestjsDT/h3.png", "/img/webNestjsDT/h4.png", "/img/webNestjsDT/h5.png"],
+      "additionalImages": ["/img/webNestjsDT/h6.png", "/img/webNestjsDT/h7.png", "/img/webNestjsDT/h8.png", "/img/webNestjsDT/h9.png", "/img/webNestjsDT/h10.png"],
+      "features": [
+        "Đặt hàng nhanh với giao diện hiển thị sản phẩm chi tiết",
+        "Tích hợp chat thời gian thực để hỗ trợ khách hàng",
+        "Hệ thống khuyến mãi linh hoạt (theo ngày, phân khúc, giá trị đơn hàng)",
+        "Đánh giá sản phẩm với hệ thống review và xếp hạng 1-5 sao",
+        "Theo dõi trạng thái đơn hàng với thông báo xác nhận tức thời",
+        "Tối ưu hiệu suất backend với NestJS và MySQL",
+        "Giao diện responsive, hỗ trợ cả web và mobile",
+        "Bảo mật dữ liệu người dùng với xác thực và mã hóa"
+      ]
+    }
+  ],
   "testimonial": [
     {
       "id": "1",
       "count": "5",
-      "src": "./img/avatar-image.png",
+      "src": "/img/avatar-image.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "author_name": "Dianne Russel",
       "author_designation": "Starbucks"
@@ -66,7 +126,7 @@
     {
       "id": "2",
       "count": "5",
-      "src": "./img/avatar-image-1.png",
+      "src": "/img/avatar-image-1.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "author_name": "Kristin Watson",
       "author_designation": "Louis Vuitton"
@@ -74,7 +134,7 @@
     {
       "id": "3",
       "count": "5",
-      "src": "./img/avatar-image-2.png",
+      "src": "/img/avatar-image-2.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "author_name": "Kathryn Murphy",
       "author_designation": "McDonald's"

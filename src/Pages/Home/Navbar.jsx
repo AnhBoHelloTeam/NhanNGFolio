@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -15,7 +16,7 @@ function Navbar() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 500) {
-        closeMenu;
+        closeMenu();
       }
     };
 
@@ -28,7 +29,7 @@ function Navbar() {
 
   useEffect(() => {
     if (window.innerWidth <= 1200) {
-      closeMenu;
+      closeMenu();
     }
   }, []);
 
@@ -48,7 +49,7 @@ function Navbar() {
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
-            <Link
+            <ScrollLink
               onClick={closeMenu}
               activeClass="navbar--active-content"
               spy={true}
@@ -59,10 +60,10 @@ function Navbar() {
               className="navbar--content"
             >
               Home
-            </Link>
+            </ScrollLink>
           </li>
           <li>
-            <Link
+            <ScrollLink
               onClick={closeMenu}
               activeClass="navbar--active-content"
               spy={true}
@@ -73,10 +74,10 @@ function Navbar() {
               className="navbar--content"
             >
               Portfolio
-            </Link>
+            </ScrollLink>
           </li>
           <li>
-            <Link
+            <ScrollLink
               onClick={closeMenu}
               activeClass="navbar--active-content"
               spy={true}
@@ -87,10 +88,10 @@ function Navbar() {
               className="navbar--content"
             >
               About Me
-            </Link>
+            </ScrollLink>
           </li>
           <li>
-            <Link
+            <ScrollLink
               onClick={closeMenu}
               activeClass="navbar--active-content"
               spy={true}
@@ -101,11 +102,20 @@ function Navbar() {
               className="navbar--content"
             >
               Testimonials
+            </ScrollLink>
+          </li>
+          <li>
+            <Link
+              to="/cv"
+              onClick={closeMenu}
+              className="navbar--content"
+            >
+              Xem CV
             </Link>
           </li>
         </ul>
       </div>
-      <Link
+      <ScrollLink
         onClick={closeMenu}
         activeClass="navbar--active-content"
         spy={true}
@@ -116,7 +126,7 @@ function Navbar() {
         className="btn btn-outline-primary"
       >
         Contact Me
-      </Link>
+      </ScrollLink>
     </nav>
   );
 }
