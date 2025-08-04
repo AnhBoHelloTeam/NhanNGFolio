@@ -112,7 +112,30 @@
         "Giao diện responsive, hỗ trợ cả web và mobile",
         "Bảo mật dữ liệu người dùng với xác thực và mã hóa"
       ]
-    }
+    },
+
+    {
+  "id": "5",
+  "src": "/img/readtruyen/a1.png",
+  "title": "React API Read Truyện",
+  "description": "Một ứng dụng đọc truyện trực tuyến sử dụng React và API để tải dữ liệu truyện từ server. Ứng dụng hỗ trợ tìm kiếm truyện, phân loại theo thể loại, và cung cấp giao diện quản lý truyện cho admin. Tích hợp tính năng đăng nhập/đăng ký và tối ưu trải nghiệm đọc trên cả desktop và mobile.",
+  "github": "https://github.com/AnhBoHelloTeam/ReactAPIReadTruyenNhanNG",
+  "demo": "https://reactapireadtruyennhanng.onrender.com/",
+  "loginImages": ["/img/readtruyen/add1.png", "/img/readtruyen/add2.png"],
+  "adminInterfaceImages": ["/img/readtruyen/a1.png", "/img/readtruyen/a2.png", "/img/readtruyen/a3.png"],
+  "userInterfaceImages": ["/img/readtruyen/u1.png", "/img/readtruyen/u2.png", "/img/readtruyen/u3.png"],
+  "additionalImages": ["/img/readtruyen/add1.png", "/img/readtruyen/add2.png"],
+  "features": [
+    "Tìm kiếm và phân loại truyện theo thể loại, tác giả",
+    "Hỗ trợ đăng nhập/đăng ký với xác thực JWT",
+    "Giao diện admin để quản lý truyện và người dùng",
+    "Tối ưu hiệu suất với lazy loading cho hình ảnh và dữ liệu",
+    "Hiển thị chi tiết truyện với nội dung động từ API",
+    "Responsive design, thân thiện trên mọi thiết bị",
+    "Tích hợp hệ thống đánh dấu trang và lịch sử đọc",
+    "Hỗ trợ đa ngôn ngữ để tiếp cận người dùng toàn cầu"
+  ]
+}
   ],
   "testimonial": [
     {
