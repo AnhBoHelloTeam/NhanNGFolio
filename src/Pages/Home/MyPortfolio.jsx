@@ -1,4 +1,5 @@
 import data from "../../data/index.json";
+import ScrollAnimation from "../../components/ScrollAnimation";
 
 export default function MyPortfolio() {
   const buttonStyle = {
@@ -34,11 +35,12 @@ export default function MyPortfolio() {
 
   return (
     <section className="portfolio--section" id="MyPortfolio">
-      <div className="portfolio--container-box">
-        <div className="portfolio--container">
-          <p className="sub--title">Recent Projects</p>
-          <h2 className="section--heading">My Projects</h2>
-        </div>
+      <ScrollAnimation animation="fade-up" delay={0.1}>
+        <div className="portfolio--container-box">
+          <div className="portfolio--container">
+            <p className="sub--title">Recent Projects</p>
+            <h2 className="section--heading">My Projects</h2>
+          </div>
         <div>
           <a
             href="https://github.com/AnhBoHelloTeam"
@@ -80,11 +82,17 @@ export default function MyPortfolio() {
             </button>
           </a>
         </div>
-      </div>
+        </div>
+      </ScrollAnimation>
 
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolio--card">
+          <ScrollAnimation 
+            key={index} 
+            animation="fade-up" 
+            delay={index * 0.1}
+          >
+            <div className="portfolio--card">
             <div className="portfolio--image--wrapper">
               <img src={item.src} alt={item.title} className="portfolio--image" />
               <div className="portfolio--overlay"></div>
@@ -134,7 +142,8 @@ export default function MyPortfolio() {
                 )}
               </div>
             </div>
-          </div>
+            </div>
+          </ScrollAnimation>
         ))}
       </div>
     </section>

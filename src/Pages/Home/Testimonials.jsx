@@ -1,15 +1,23 @@
 import data from "../../data/index.json";
+import ScrollAnimation from "../../components/ScrollAnimation";
 
 export default function Testimonial() {
   return (
     <section className="testimonial--section" id="testimonial">
-      <div className="portfolio--container">
-        <p className="sub--title">Client & Peer Reviews</p>
-        <h2 className="section--heading">Testimonials</h2>
-      </div>
+      <ScrollAnimation animation="fade-up" delay={0.1}>
+        <div className="portfolio--container">
+          <p className="sub--title">Client & Peer Reviews</p>
+          <h2 className="section--heading">Testimonials</h2>
+        </div>
+      </ScrollAnimation>
       <div className="portfolio--section--container" style={{ maxWidth: '1200px', margin: '0 auto' }}>
         {data?.testimonial?.map((item, index) => (
-          <div
+          <ScrollAnimation 
+            key={index} 
+            animation="fade-up" 
+            delay={index * 0.15}
+          >
+            <div
             key={index}
             className="testimonial--section--card"
             style={{
@@ -56,7 +64,8 @@ export default function Testimonial() {
                 </p>
               </div>
             </div>
-          </div>
+            </div>
+          </ScrollAnimation>
         ))}
       </div>
     </section>
