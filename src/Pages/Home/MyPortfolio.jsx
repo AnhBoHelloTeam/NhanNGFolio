@@ -36,8 +36,8 @@ export default function MyPortfolio() {
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <p className="sub--title">Dự Án Gần Đây</p>
-          <h2 className="section--heading">Danh Mục Dự Án</h2>
+          <p className="sub--title">Recent Projects</p>
+          <h2 className="section--heading">My Projects</h2>
         </div>
         <div>
           <a
@@ -76,7 +76,7 @@ export default function MyPortfolio() {
                   fill="currentColor"
                 />
               </svg>
-              Xem GitHub Của Tôi
+              View My GitHub
             </button>
           </a>
         </div>

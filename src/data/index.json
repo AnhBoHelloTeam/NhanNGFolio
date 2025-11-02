@@ -4,25 +4,25 @@
       "id": "1",
       "src": "/img/react.png",
       "title": "JavaScript (Node.js, React)",
-      "description": "Kinh nghiệm với phát triển web bằng Node.js và React. Đã thực hiện các project CRUD thực tế."
+      "description": "Experienced in web development with Node.js and React. Successfully implemented real-world CRUD projects."
     },
     {
       "id": "2",
       "src": "/img/python.png",
       "title": "Python (Django, Flask)",
-      "description": "Sử dụng Python để xây dựng backend, xử lý API và ứng dụng Flask đơn giản."
+      "description": "Using Python to build backend systems, API processing, and Flask applications."
     },
     {
       "id": "3",
       "src": "/img/database.png",
       "title": "Databases",
-      "description": "Thành thạo MySQL, PostgreSQL và MongoDB. Kết nối backend với cơ sở dữ liệu."
+      "description": "Proficient in MySQL, PostgreSQL, and MongoDB. Connecting backend systems with databases."
     },
     {
       "id": "4",
       "src": "/img/frontend.png",
       "title": "Frontend & UI/UX",
-      "description": "Có khả năng thiết kế giao diện với React, HTML, CSS và Flutter. Tối ưu trải nghiệm người dùng."
+      "description": "Capable of designing interfaces with React, HTML, CSS, and Flutter. Optimizing user experience."
     }
   ],
   "portfolio": [
@@ -38,13 +38,13 @@
       "userInterfaceImages": ["/img/profile.png"],
       "additionalImages": ["/img/profile.png"],
       "features": [
-        "Thiết kế giao diện responsive, tương thích mọi thiết bị",
-        "Tích hợp liên kết mạng xã hội để tăng khả năng kết nối",
-        "3D graphics design với three.js cho trải nghiệm tuyệt vời",
-        "Hiệu ứng chuyển đổi mượt mà với CSS animations",
-        "Tải trang nhanh nhờ tối ưu hóa tài nguyên tĩnh",
-        "Giao diện tối giản, thân thiện với người dùng",
-        "Tích hợp SEO cho khả năng hiển thị trên công cụ tìm kiếm"
+        "Responsive design, compatible with all devices",
+        "Integrated social media links to increase connectivity",
+        "3D graphics design with three.js for amazing experience",
+        "Smooth transitions with CSS animations",
+        "Fast page loading through static resource optimization",
+        "Minimalist, user-friendly interface",
+        "SEO integration for search engine visibility"
       ]
     },
     {
@@ -59,13 +59,13 @@
       "userInterfaceImages": ["/img/profile.png"],
       "additionalImages": ["/img/profile.png"],
       "features": [
-        "Thiết kế giao diện responsive, tương thích mọi thiết bị",
-        "Tích hợp liên kết mạng xã hội để tăng khả năng kết nối",
-        "Tối ưu hóa SEO với meta tags và cấu trúc HTML chuẩn",
-        "Hiệu ứng chuyển đổi mượt mà với CSS animations",
-        "Tải trang nhanh nhờ tối ưu hóa tài nguyên tĩnh",
-        "Giao diện tối giản, thân thiện với người dùng",
-        "Hỗ trợ đa ngôn ngữ cho khả năng tiếp cận toàn cầu"
+        "Responsive design, compatible with all devices",
+        "Integrated social media links to increase connectivity",
+        "SEO optimization with meta tags and standard HTML structure",
+        "Smooth transitions with CSS animations",
+        "Fast page loading through static resource optimization",
+        "Minimalist, user-friendly interface",
+        "Multi-language support for global accessibility"
       ]
     },
     {
@@ -80,11 +80,11 @@
       "userInterfaceImages": ["/vluxai.com.png"],
       "additionalImages": ["/vluxai.com.png"],
       "features": [
-        "Corporate website với thiết kế hiện đại",
-        "Trang dịch vụ, blog và hỗ trợ đa ngôn ngữ",
-        "Fully responsive với layout tối ưu",
-        "SEO tối ưu cho search engine",
-        "Trải nghiệm người dùng mượt mà"
+        "Modern corporate website design",
+        "Service pages, blog, and multilingual support",
+        "Fully responsive with optimized layout",
+        "SEO optimized for search engines",
+        "Smooth user experience"
       ]
     },
     {
@@ -99,11 +99,11 @@
       "userInterfaceImages": ["/sohonails.com.au_.png"],
       "additionalImages": ["/sohonails.com.au_.png"],
       "features": [
-        "Website salon với multi-branch pages",
-        "Service lists, pricing và booking/contact info",
-        "Clean design, readability",
-        "SEO content structure tối ưu",
-        "Responsive design cho mọi thiết bị"
+        "Salon website with multi-branch pages",
+        "Service lists, pricing, and booking/contact info",
+        "Clean design and readability",
+        "Optimized SEO content structure",
+        "Responsive design for all devices"
       ]
     },
     {
@@ -121,8 +121,8 @@
         "Construction/windows & doors business site",
         "Services, portfolios, blog, shop pages",
         "Request-a-quote flow",
-        "Premium visuals và conversions",
-        "Content structure tối ưu"
+        "Premium visuals and conversions",
+        "Optimized content structure"
       ]
     },
     {
@@ -137,11 +137,11 @@
       "userInterfaceImages": ["/img/reactNen.png"],
       "additionalImages": ["/img/reactNen.png"],
       "features": [
-        "Shopping cart và product search",
-        "Order tracking và real-time chat",
-        "Real-time chat giữa khách hàng và chủ cửa hàng",
-        "Responsive UI cho desktop và mobile",
-        "React với Vite, Node.js, và MongoDB"
+        "Shopping cart and product search",
+        "Order tracking and real-time chat",
+        "Real-time chat between customers and shop owners",
+        "Responsive UI for desktop and mobile",
+        "React with Vite, Node.js, and MongoDB"
       ]
     },
     {
@@ -156,11 +156,11 @@
       "userInterfaceImages": ["/img/webDT/1.png", "/img/webDT/2.png", "/img/webDT/3.png"],
       "additionalImages": ["/img/webDT/4.png", "/img/webDT/5.png", "/img/webDT/6.png", "/img/webDT/7.png"],
       "features": [
-        "Admin và user dashboards",
-        "Product search và secure checkout",
+        "Admin and user dashboards",
+        "Product search and secure checkout",
         "Order management",
-        "Fast và intuitive online shopping experience",
-        "React, Node.js, và MongoDB"
+        "Fast and intuitive online shopping experience",
+        "React, Node.js, and MongoDB"
       ]
     },
     {
@@ -175,11 +175,11 @@
       "userInterfaceImages": ["/img/appsize.png"],
       "additionalImages": ["/img/appsize.png"],
       "features": [
-        "Full-stack clone của Threads (social media platform)",
-        "Next.js 14+ với backend API development",
-        "Real-time features và user authentication",
-        "Notifications và community management",
-        "Nested comments và real-time search"
+        "Full-stack clone of Threads (social media platform)",
+        "Next.js 14+ with backend API development",
+        "Real-time features and user authentication",
+        "Notifications and community management",
+        "Nested comments and real-time search"
       ]
     },
     {
@@ -194,8 +194,8 @@
       "userInterfaceImages": ["/img/appsize.png"],
       "additionalImages": ["/img/appsize.png"],
       "features": [
-        "Modern e-commerce web app cho camera enthusiasts",
-        "Next.js, MongoDB, và Vite",
+        "Modern e-commerce web app for camera enthusiasts",
+        "Next.js, MongoDB, and Vite",
         "Fast performance",
         "Smooth shopping experience",
         "Responsive design"
@@ -213,10 +213,10 @@
       "userInterfaceImages": ["/img/appDT/1.png", "/img/appDT/2.png"],
       "additionalImages": ["/img/appDT/3.png", "/img/appDT/4.png", "/img/appDT/5.png", "/img/appDT/6.png"],
       "features": [
-        "Mobile e-commerce app với Flutter",
+        "Mobile e-commerce app with Flutter",
         "Node.js + MongoDB backend",
-        "Browsing products và viewing details",
-        "Managing shopping cart và placing orders",
+        "Browsing products and viewing details",
+        "Managing shopping cart and placing orders",
         "Native mobile experience"
       ]
     },
@@ -232,10 +232,10 @@
       "userInterfaceImages": ["/img/readtruyen/u1.png", "/img/readtruyen/u2.png", "/img/readtruyen/u3.png"],
       "additionalImages": ["/img/readtruyen/add1.png", "/img/readtruyen/add2.png"],
       "features": [
-        "Web application đọc truyện online",
-        "React và API để fetch data từ server",
-        "Search, category filters",
-        "User login và admin panel",
+        "Web application for reading comics online",
+        "React and API to fetch data from server",
+        "Search and category filters",
+        "User login and admin panel",
         "Content management system"
       ]
     },
@@ -251,9 +251,9 @@
       "userInterfaceImages": ["/img/webNestjsDT/home.png"],
       "additionalImages": ["/img/webNestjsDT/home.png"],
       "features": [
-        "All-in-One platform cho Product Managers",
-        "Manage roadmaps và gather user insights",
-        "Organize backlogs và collaborate",
+        "All-in-One platform for Product Managers",
+        "Manage roadmaps and gather user insights",
+        "Organize backlogs and collaborate",
         "Team collaboration tools",
         "Product management features"
       ]
@@ -265,15 +265,15 @@
       "description": "A food ordering platform built with NestJS, React, and MySQL. Includes menu browsing, order placement, price calculation, and order tracking. Designed for restaurants to manage online orders efficiently.",
       "github": "https://github.com/AnhBoHelloTeam/fastfood-app_NetJS_fontent.git",
       "demo": "https://fastfood-app-netjs-fontent.onrender.com/",
-      "loginImages": ["/img/webNestjsDT/log1.png", "/img/webNestjsDT/log2.png"],
+      "loginImages": ["/img/webNestjsDT/log1.png", "/img/webDT/log2.png"],
       "adminInterfaceImages": ["/img/webNestjsDT/home.png", "/img/webNestjsDT/a1.png", "/img/webNestjsDT/a2.png", "/img/webNestjsDT/a3.png", "/img/webNestjsDT/a4.png", "/img/webNestjsDT/a5.png", "/img/webNestjsDT/a6.png"],
       "userInterfaceImages": ["/img/webNestjsDT/h1.png", "/img/webNestjsDT/home.png", "/img/webNestjsDT/h2.png", "/img/webNestjsDT/h3.png", "/img/webNestjsDT/h4.png", "/img/webNestjsDT/h5.png"],
       "additionalImages": ["/img/webNestjsDT/h6.png", "/img/webNestjsDT/h7.png", "/img/webNestjsDT/h8.png", "/img/webNestjsDT/h9.png", "/img/webNestjsDT/h10.png"],
       "features": [
-        "Food ordering platform với NestJS, React, và MySQL",
-        "Menu browsing và order placement",
-        "Price calculation và order tracking",
-        "Restaurant management cho online orders",
+        "Food ordering platform with NestJS, React, and MySQL",
+        "Menu browsing and order placement",
+        "Price calculation and order tracking",
+        "Restaurant management for online orders",
         "Efficient order management system"
       ]
     }

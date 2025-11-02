@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
+  const location = useLocation();
+  const isCVPage = location.pathname === "/cv";
 
   const toggleNav = () => {
     setNavActive(!navActive);
@@ -36,7 +38,9 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+        <Link to="/" onClick={() => setNavActive(false)}>
+          <img src="./img/logo.svg" alt="NhanNG Portfolio" />
+        </Link>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -48,85 +52,139 @@ function Navbar() {
       </a>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
-          <li>
-            <ScrollLink
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="heroSection"
-              className="navbar--content"
-            >
-              Home
-            </ScrollLink>
-          </li>
-          <li>
-            <ScrollLink
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="MyPortfolio"
-              className="navbar--content"
-            >
-              Portfolio
-            </ScrollLink>
-          </li>
-          <li>
-            <ScrollLink
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="AboutMe"
-              className="navbar--content"
-            >
-              About Me
-            </ScrollLink>
-          </li>
-          <li>
-            <ScrollLink
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="testimonial"
-              className="navbar--content"
-            >
-              Testimonials
-            </ScrollLink>
-          </li>
-          <li>
-            <Link
-              to="/cv"
-              onClick={closeMenu}
-              className="navbar--content"
-            >
-              Xem CV
-            </Link>
-          </li>
+          {isCVPage ? (
+            <>
+              <li>
+                <Link
+                  to="/"
+                  onClick={closeMenu}
+                  className="navbar--content"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/#MyPortfolio"
+                  onClick={closeMenu}
+                  className="navbar--content"
+                >
+                  Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/#AboutMe"
+                  onClick={closeMenu}
+                  className="navbar--content"
+                >
+                  About Me
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/#testimonial"
+                  onClick={closeMenu}
+                  className="navbar--content"
+                >
+                  Testimonials
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/#Contact"
+                  onClick={closeMenu}
+                  className="navbar--content"
+                >
+                  Contact
+                </Link>
+              </li>
+            </>
+          ) : (
+            <>
+              <li>
+                <ScrollLink
+                  onClick={closeMenu}
+                  activeClass="navbar--active-content"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  to="heroSection"
+                  className="navbar--content"
+                >
+                  Home
+                </ScrollLink>
+              </li>
+              <li>
+                <ScrollLink
+                  onClick={closeMenu}
+                  activeClass="navbar--active-content"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  to="MyPortfolio"
+                  className="navbar--content"
+                >
+                  Portfolio
+                </ScrollLink>
+              </li>
+              <li>
+                <ScrollLink
+                  onClick={closeMenu}
+                  activeClass="navbar--active-content"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  to="AboutMe"
+                  className="navbar--content"
+                >
+                  About Me
+                </ScrollLink>
+              </li>
+              <li>
+                <ScrollLink
+                  onClick={closeMenu}
+                  activeClass="navbar--active-content"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  to="testimonial"
+                  className="navbar--content"
+                >
+                  Testimonials
+                </ScrollLink>
+              </li>
+              <li>
+                <Link
+                  to="/cv"
+                  onClick={closeMenu}
+                  className="navbar--content"
+                >
+                  View CV
+                </Link>
+              </li>
+            </>
+          )}
         </ul>
       </div>
-      <ScrollLink
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Contact Me
-      </ScrollLink>
+      {!isCVPage && (
+        <ScrollLink
+          onClick={closeMenu}
+          activeClass="navbar--active-content"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          to="Contact"
+          className="btn btn-outline-primary"
+        >
+          Contact Me
+        </ScrollLink>
+      )}
     </nav>
   );
 }
