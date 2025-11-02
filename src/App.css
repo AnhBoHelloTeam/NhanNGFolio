@@ -632,6 +632,51 @@ h3 {
   background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
 }
 
+.testimonial--section--card {
+  background: var(--bg-white);
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-height: 280px;
+}
+
+.testimonial--section--card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-2xl);
+  border-color: var(--primary-light);
+}
+
+.testimonial--section--card--reviews {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.testimonial--section--card--author--detail {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: auto;
+}
+
+.testimonial--author--name {
+  font-weight: 600;
+  color: var(--heading-color);
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.testimonial--author--designation {
+  color: var(--text-light);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 /* Contact Section */
 .contact--section {
   display: flex;
