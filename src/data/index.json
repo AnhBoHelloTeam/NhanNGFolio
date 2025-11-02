@@ -28,7 +28,7 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "/img/profile.png",
+      "src": "/3dnhan.png",
       "title": "NhanNG | 3D Portfolio Application",
       "description": "Building a personal portfolio website with react.js and three.js involves creating a visually appealing and responsive design that showcases your skills, projects, and experiences. The website should include sections for an introduction, project showcases, testimonials, and contact information. 3D graphics design for amazing view using threejs.",
       "github": "https://github.com/AnhBoHelloTeam/3D-Portfolio.git",
@@ -49,7 +49,7 @@
     },
     {
       "id": "2",
-      "src": "/img/profile.png",
+      "src": "/nhanprofolio.png",
       "title": "NhanNG | Portfolio Application",
       "description": "A modern, minimalist yet functional personal profile page using React and static CSS. The site showcases skills, featured projects, and contact information, providing a smooth experience on all devices. Integrated SEO for increased search engine visibility.",
       "github": "https://github.com/AnhBoHelloTeam/NhanNGFolio",
@@ -127,7 +127,7 @@
     },
     {
       "id": "6",
-      "src": "/img/reactNen.png",
+      "src": "/Souvenir.png",
       "title": "Souvenir E-commerce Website",
       "description": "A web application for selling souvenirs, developed using React with Vite, Node.js, and MongoDB. The platform includes features like shopping cart, product search, order tracking, and real-time chat between customers and shop owners. Designed to provide a smooth shopping experience with responsive UI for both desktop and mobile users.",
       "github": "https://github.com/AnhBoHelloTeam/FE-NhanShopLuuNiem.git",
@@ -146,7 +146,7 @@
     },
     {
       "id": "7",
-      "src": "/img/reactNen.png",
+      "src": "/elecWeb.png",
       "title": "React Web Shop",
       "description": "An e-commerce web application built with React, Node.js, and MongoDB. Includes admin and user dashboards, product search, secure checkout, and order management. Designed to provide a fast and intuitive online shopping experience.",
       "github": "https://github.com/AnhBoHelloTeam/Shop_Fontend_REACT.git",
@@ -165,7 +165,7 @@
     },
     {
       "id": "8",
-      "src": "/img/appsize.png",
+      "src": "/thread.png",
       "title": "Threads Application",
       "description": "Building a full-stack clone of Threads (a social media platform) with Next.js 14+ involves several stages, including user interface design, backend API development, real-time features, user authentication, notifications, and community management. The platform should support various features like nested comments, real-time search, and notifications.",
       "github": "https://github.com/AnhBoHelloTeam/Threads-Aplication.git",
@@ -184,7 +184,7 @@
     },
     {
       "id": "9",
-      "src": "/img/appsize.png",
+      "src": "/lamda.png",
       "title": "LamDa Camera Shop",
       "description": "Lambda Camera Shop is a modern e-commerce web app built with Next.js, MongoDB, and Vite, offering fast performance and a smooth shopping experience for camera enthusiasts.",
       "github": "https://github.com/AnhBoHelloTeam",
@@ -203,7 +203,7 @@
     },
     {
       "id": "10",
-      "src": "/img/appsize.png",
+      "src": "/elecAppP.png",
       "title": "Flutter Mobile App",
       "description": "A mobile e-commerce app built with Flutter and connected to a Node.js + MongoDB backend. Supports browsing products, viewing details, managing a shopping cart, and placing orders directly from a mobile device.",
       "github": "https://github.com/AnhBoHelloTeam/Shop_Fontend_Flutter.git",
@@ -222,7 +222,7 @@
     },
     {
       "id": "11",
-      "src": "/img/webNestjsDT/home.png",
+      "src": "/APITruyen.png",
       "title": "React API Read Comics",
       "description": "A web application for reading comics online using React and an API to fetch data from the server. Supports search, category filters, user login, and an admin panel for content management.",
       "github": "https://github.com/AnhBoHelloTeam/ReactAPIReadTruyenNhanNG.git",
@@ -241,7 +241,7 @@
     },
     {
       "id": "12",
-      "src": "/img/webNestjsDT/home.png",
+      "src": "/terms.jpg",
       "title": "Product Management Software",
       "description": "All-in-One platform that helps Product Managers turn ideas into successful products. Manage roadmaps, gather user insights, organize backlogs, and collaborate with the entire team - all in one place.",
       "github": "https://github.com/AnhBoHelloTeam/123fakturera_FE.git",
@@ -260,7 +260,7 @@
     },
     {
       "id": "13",
-      "src": "/img/webNestjsDT/home.png",
+      "src": "/FastfoodWeb.png",
       "title": "Fast Food Web App",
       "description": "A food ordering platform built with NestJS, React, and MySQL. Includes menu browsing, order placement, price calculation, and order tracking. Designed for restaurants to manage online orders efficiently.",
       "github": "https://github.com/AnhBoHelloTeam/fastfood-app_NetJS_fontent.git",
