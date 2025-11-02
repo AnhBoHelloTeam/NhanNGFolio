@@ -29,10 +29,31 @@
     {
       "id": "1",
       "src": "/img/profile.png",
-      "title": "Profile of NhanNG",
-      "description": "Một trang hồ sơ cá nhân hiện đại, được thiết kế tối giản nhưng đầy đủ chức năng, sử dụng React và CSS thuần. Trang web giới thiệu kỹ năng, dự án nổi bật và thông tin liên hệ, mang lại trải nghiệm mượt mà trên mọi thiết bị. Tích hợp SEO giúp tăng khả năng hiển thị trên công cụ tìm kiếm.",
-      "github": "https://github.com/AnhBoHelloTeam/AnhBoHelloTeam.git",
-      "demo": "https://anhbohelloteam.github.io/NhanNGpro5/",
+      "title": "NhanNG | 3D Portfolio Application",
+      "description": "Building a personal portfolio website with react.js and three.js involves creating a visually appealing and responsive design that showcases your skills, projects, and experiences. The website should include sections for an introduction, project showcases, testimonials, and contact information. 3D graphics design for amazing view using threejs.",
+      "github": "https://github.com/AnhBoHelloTeam/3D-Portfolio.git",
+      "demo": "https://nhanngfolio.onrender.com/",
+      "loginImages": ["/img/profile.png"],
+      "adminInterfaceImages": ["/img/profile.png"],
+      "userInterfaceImages": ["/img/profile.png"],
+      "additionalImages": ["/img/profile.png"],
+      "features": [
+        "Thiết kế giao diện responsive, tương thích mọi thiết bị",
+        "Tích hợp liên kết mạng xã hội để tăng khả năng kết nối",
+        "3D graphics design với three.js cho trải nghiệm tuyệt vời",
+        "Hiệu ứng chuyển đổi mượt mà với CSS animations",
+        "Tải trang nhanh nhờ tối ưu hóa tài nguyên tĩnh",
+        "Giao diện tối giản, thân thiện với người dùng",
+        "Tích hợp SEO cho khả năng hiển thị trên công cụ tìm kiếm"
+      ]
+    },
+    {
+      "id": "2",
+      "src": "/img/profile.png",
+      "title": "NhanNG | Portfolio Application",
+      "description": "A modern, minimalist yet functional personal profile page using React and static CSS. The site showcases skills, featured projects, and contact information, providing a smooth experience on all devices. Integrated SEO for increased search engine visibility.",
+      "github": "https://github.com/AnhBoHelloTeam/NhanNGFolio",
+      "demo": "https://nhanngfolio.onrender.com/",
       "loginImages": ["/img/profile.png"],
       "adminInterfaceImages": ["/img/profile.png"],
       "userInterfaceImages": ["/img/profile.png"],
@@ -48,10 +69,86 @@
       ]
     },
     {
-      "id": "2",
+      "id": "3",
+      "src": "/vluxai.com.png",
+      "title": "VLUXAI | Business Tech Solutions",
+      "description": "Corporate website showcasing AI, website/app development, management software, and marketing services. Fully responsive with modern layout, service pages, blog, and multilingual support.",
+      "github": "",
+      "demo": "https://vluxai.com/",
+      "loginImages": ["/vluxai.com.png"],
+      "adminInterfaceImages": ["/vluxai.com.png"],
+      "userInterfaceImages": ["/vluxai.com.png"],
+      "additionalImages": ["/vluxai.com.png"],
+      "features": [
+        "Corporate website với thiết kế hiện đại",
+        "Trang dịch vụ, blog và hỗ trợ đa ngôn ngữ",
+        "Fully responsive với layout tối ưu",
+        "SEO tối ưu cho search engine",
+        "Trải nghiệm người dùng mượt mà"
+      ]
+    },
+    {
+      "id": "4",
+      "src": "/sohonails.com.au_.png",
+      "title": "Soho Nails | Salon Website",
+      "description": "A salon website with multi-branch pages, service lists, pricing, and booking/contact info. Focused on clean design, readability, and SEO content structure.",
+      "github": "",
+      "demo": "https://sohonails.com.au/",
+      "loginImages": ["/sohonails.com.au_.png"],
+      "adminInterfaceImages": ["/sohonails.com.au_.png"],
+      "userInterfaceImages": ["/sohonails.com.au_.png"],
+      "additionalImages": ["/sohonails.com.au_.png"],
+      "features": [
+        "Website salon với multi-branch pages",
+        "Service lists, pricing và booking/contact info",
+        "Clean design, readability",
+        "SEO content structure tối ưu",
+        "Responsive design cho mọi thiết bị"
+      ]
+    },
+    {
+      "id": "5",
+      "src": "/austrix.vluxai.com.png",
+      "title": "Austrix | W&D Website",
+      "description": "A construction/windows & doors business site featuring services, portfolios, blog, shop pages and request-a-quote flow. Focus on premium visuals, conversions, and content structure.",
+      "github": "",
+      "demo": "https://austrix.vluxai.com/",
+      "loginImages": ["/austrix.vluxai.com.png"],
+      "adminInterfaceImages": ["/austrix.vluxai.com.png"],
+      "userInterfaceImages": ["/austrix.vluxai.com.png"],
+      "additionalImages": ["/austrix.vluxai.com.png"],
+      "features": [
+        "Construction/windows & doors business site",
+        "Services, portfolios, blog, shop pages",
+        "Request-a-quote flow",
+        "Premium visuals và conversions",
+        "Content structure tối ưu"
+      ]
+    },
+    {
+      "id": "6",
+      "src": "/img/reactNen.png",
+      "title": "Souvenir E-commerce Website",
+      "description": "A web application for selling souvenirs, developed using React with Vite, Node.js, and MongoDB. The platform includes features like shopping cart, product search, order tracking, and real-time chat between customers and shop owners. Designed to provide a smooth shopping experience with responsive UI for both desktop and mobile users.",
+      "github": "https://github.com/AnhBoHelloTeam/FE-NhanShopLuuNiem.git",
+      "demo": "https://fe-webdoluuniem.onrender.com/",
+      "loginImages": ["/img/reactNen.png"],
+      "adminInterfaceImages": ["/img/reactNen.png"],
+      "userInterfaceImages": ["/img/reactNen.png"],
+      "additionalImages": ["/img/reactNen.png"],
+      "features": [
+        "Shopping cart và product search",
+        "Order tracking và real-time chat",
+        "Real-time chat giữa khách hàng và chủ cửa hàng",
+        "Responsive UI cho desktop và mobile",
+        "React với Vite, Node.js, và MongoDB"
+      ]
+    },
+    {
+      "id": "7",
       "src": "/img/reactNen.png",
       "title": "React Web Shop",
-      "description": "Một ứng dụng thương mại điện tử mạnh mẽ xây dựng bằng React, Node.js và MongoDB. Trang web cung cấp trải nghiệm mua sắm trực tuyến liền mạch với giao diện admin quản lý sản phẩm và giỏ hàng người dùng. Hệ thống hỗ trợ tìm kiếm, lọc sản phẩm và thanh toán an toàn, mang lại sự tiện lợi tối đa.",
+      "description": "An e-commerce web application built with React, Node.js, and MongoDB. Includes admin and user dashboards, product search, secure checkout, and order management. Designed to provide a fast and intuitive online shopping experience.",
       "github": "https://github.com/AnhBoHelloTeam/Shop_Fontend_REACT.git",
       "demo": "https://shop-frontend-8yko.onrender.com/",
       "loginImages": ["/img/webDT/log1.png", "/img/webDT/log2.png"],
@@ -59,43 +156,113 @@
       "userInterfaceImages": ["/img/webDT/1.png", "/img/webDT/2.png", "/img/webDT/3.png"],
       "additionalImages": ["/img/webDT/4.png", "/img/webDT/5.png", "/img/webDT/6.png", "/img/webDT/7.png"],
       "features": [
-        "Quản lý giỏ hàng với tính năng thêm, sửa, xóa sản phẩm",
-        "Tích hợp thanh toán trực tuyến an toàn qua API bên thứ ba",
-        "Giao diện admin quản lý sản phẩm, đơn hàng và người dùng",
-        "Tìm kiếm và lọc sản phẩm theo danh mục, giá cả",
-        "Hiển thị chi tiết sản phẩm với hình ảnh và mô tả rõ ràng",
-        "Tối ưu hiệu suất với lazy loading và caching",
-        "Hỗ trợ đăng nhập/đăng ký với xác thực JWT",
-        "Giao diện responsive, mượt mà trên cả desktop và mobile"
+        "Admin và user dashboards",
+        "Product search và secure checkout",
+        "Order management",
+        "Fast và intuitive online shopping experience",
+        "React, Node.js, và MongoDB"
       ]
     },
     {
-      "id": "3",
+      "id": "8",
+      "src": "/img/appsize.png",
+      "title": "Threads Application",
+      "description": "Building a full-stack clone of Threads (a social media platform) with Next.js 14+ involves several stages, including user interface design, backend API development, real-time features, user authentication, notifications, and community management. The platform should support various features like nested comments, real-time search, and notifications.",
+      "github": "https://github.com/AnhBoHelloTeam/Threads-Aplication.git",
+      "demo": "https://threads-aplication.onrender.com/",
+      "loginImages": ["/img/appsize.png"],
+      "adminInterfaceImages": ["/img/appsize.png"],
+      "userInterfaceImages": ["/img/appsize.png"],
+      "additionalImages": ["/img/appsize.png"],
+      "features": [
+        "Full-stack clone của Threads (social media platform)",
+        "Next.js 14+ với backend API development",
+        "Real-time features và user authentication",
+        "Notifications và community management",
+        "Nested comments và real-time search"
+      ]
+    },
+    {
+      "id": "9",
+      "src": "/img/appsize.png",
+      "title": "LamDa Camera Shop",
+      "description": "Lambda Camera Shop is a modern e-commerce web app built with Next.js, MongoDB, and Vite, offering fast performance and a smooth shopping experience for camera enthusiasts.",
+      "github": "https://github.com/AnhBoHelloTeam",
+      "demo": "https://github.com/AnhBoHelloTeam",
+      "loginImages": ["/img/appsize.png"],
+      "adminInterfaceImages": ["/img/appsize.png"],
+      "userInterfaceImages": ["/img/appsize.png"],
+      "additionalImages": ["/img/appsize.png"],
+      "features": [
+        "Modern e-commerce web app cho camera enthusiasts",
+        "Next.js, MongoDB, và Vite",
+        "Fast performance",
+        "Smooth shopping experience",
+        "Responsive design"
+      ]
+    },
+    {
+      "id": "10",
       "src": "/img/appsize.png",
       "title": "Flutter Mobile App",
-      "description": "Ứng dụng di động thương mại điện tử được phát triển bằng Flutter, kết hợp backend Node.js và MongoDB. Ứng dụng mang đến trải nghiệm mua sắm nhanh chóng, trực quan với giao diện tối ưu cho mobile. Tính năng thông báo đẩy và đặt hàng tức thời giúp người dùng dễ dàng tương tác mọi lúc, mọi nơi.",
+      "description": "A mobile e-commerce app built with Flutter and connected to a Node.js + MongoDB backend. Supports browsing products, viewing details, managing a shopping cart, and placing orders directly from a mobile device.",
       "github": "https://github.com/AnhBoHelloTeam/Shop_Fontend_Flutter.git",
-      "demo": "https://shop-flutter-1c992.firebaseapp.com/#/home",
+      "demo": "https://shop-flutter-1c992.firebaseapp.com/",
       "loginImages": ["/img/appDT/log1.png", "/img/appDT/log2.png"],
       "adminInterfaceImages": ["/img/appDT/a1.png", "/img/appDT/a2.png", "/img/appDT/a3.png", "/img/appDT/a4.png", "/img/appDT/a5.png"],
       "userInterfaceImages": ["/img/appDT/1.png", "/img/appDT/2.png"],
       "additionalImages": ["/img/appDT/3.png", "/img/appDT/4.png", "/img/appDT/5.png", "/img/appDT/6.png"],
       "features": [
-        "Đặt hàng nhanh với quy trình thanh toán đơn giản",
-        "Thông báo đẩy về trạng thái đơn hàng và khuyến mãi",
-        "Giao diện người dùng tối ưu, thân thiện trên iOS và Android",
-        "Tích hợp tìm kiếm sản phẩm theo từ khóa và danh mục",
-        "Hỗ trợ quản lý tài khoản người dùng với đăng nhập bảo mật",
-        "Tối ưu hiệu suất ứng dụng với Flutter’s hot reload",
-        "Hiển thị sản phẩm với hình ảnh chất lượng cao",
-        "Hỗ trợ đa ngôn ngữ để tiếp cận người dùng toàn cầu"
+        "Mobile e-commerce app với Flutter",
+        "Node.js + MongoDB backend",
+        "Browsing products và viewing details",
+        "Managing shopping cart và placing orders",
+        "Native mobile experience"
       ]
     },
     {
-      "id": "4",
+      "id": "11",
+      "src": "/img/webNestjsDT/home.png",
+      "title": "React API Read Comics",
+      "description": "A web application for reading comics online using React and an API to fetch data from the server. Supports search, category filters, user login, and an admin panel for content management.",
+      "github": "https://github.com/AnhBoHelloTeam/ReactAPIReadTruyenNhanNG.git",
+      "demo": "https://reactapireadtruyennhanng.onrender.com/",
+      "loginImages": ["/img/readtruyen/add1.png", "/img/readtruyen/add2.png"],
+      "adminInterfaceImages": ["/img/readtruyen/a1.png", "/img/readtruyen/a2.png", "/img/readtruyen/a3.png"],
+      "userInterfaceImages": ["/img/readtruyen/u1.png", "/img/readtruyen/u2.png", "/img/readtruyen/u3.png"],
+      "additionalImages": ["/img/readtruyen/add1.png", "/img/readtruyen/add2.png"],
+      "features": [
+        "Web application đọc truyện online",
+        "React và API để fetch data từ server",
+        "Search, category filters",
+        "User login và admin panel",
+        "Content management system"
+      ]
+    },
+    {
+      "id": "12",
+      "src": "/img/webNestjsDT/home.png",
+      "title": "Product Management Software",
+      "description": "All-in-One platform that helps Product Managers turn ideas into successful products. Manage roadmaps, gather user insights, organize backlogs, and collaborate with the entire team - all in one place.",
+      "github": "https://github.com/AnhBoHelloTeam/123fakturera_FE.git",
+      "demo": "https://one23fakturera-fe.onrender.com",
+      "loginImages": ["/img/webNestjsDT/home.png"],
+      "adminInterfaceImages": ["/img/webNestjsDT/home.png"],
+      "userInterfaceImages": ["/img/webNestjsDT/home.png"],
+      "additionalImages": ["/img/webNestjsDT/home.png"],
+      "features": [
+        "All-in-One platform cho Product Managers",
+        "Manage roadmaps và gather user insights",
+        "Organize backlogs và collaborate",
+        "Team collaboration tools",
+        "Product management features"
+      ]
+    },
+    {
+      "id": "13",
       "src": "/img/webNestjsDT/home.png",
       "title": "Fast Food Web App",
-      "description": "Một nền tảng đặt đồ ăn nhanh toàn diện sử dụng NestJS, React và MySQL, cung cấp trải nghiệm người dùng mượt mà và quản lý hiệu quả. Ứng dụng tích hợp các tính năng như đặt hàng, theo dõi đơn hàng, đánh giá sản phẩm và trò chuyện trực tiếp với cửa hàng. Hệ thống khuyến mãi linh hoạt giúp tối ưu hóa doanh thu và sự hài lòng của khách hàng.",
+      "description": "A food ordering platform built with NestJS, React, and MySQL. Includes menu browsing, order placement, price calculation, and order tracking. Designed for restaurants to manage online orders efficiently.",
       "github": "https://github.com/AnhBoHelloTeam/fastfood-app_NetJS_fontent.git",
       "demo": "https://fastfood-app-netjs-fontent.onrender.com/",
       "loginImages": ["/img/webNestjsDT/log1.png", "/img/webNestjsDT/log2.png"],
@@ -103,64 +270,41 @@
       "userInterfaceImages": ["/img/webNestjsDT/h1.png", "/img/webNestjsDT/home.png", "/img/webNestjsDT/h2.png", "/img/webNestjsDT/h3.png", "/img/webNestjsDT/h4.png", "/img/webNestjsDT/h5.png"],
       "additionalImages": ["/img/webNestjsDT/h6.png", "/img/webNestjsDT/h7.png", "/img/webNestjsDT/h8.png", "/img/webNestjsDT/h9.png", "/img/webNestjsDT/h10.png"],
       "features": [
-        "Đặt hàng nhanh với giao diện hiển thị sản phẩm chi tiết",
-        "Tích hợp chat thời gian thực để hỗ trợ khách hàng",
-        "Hệ thống khuyến mãi linh hoạt (theo ngày, phân khúc, giá trị đơn hàng)",
-        "Đánh giá sản phẩm với hệ thống review và xếp hạng 1-5 sao",
-        "Theo dõi trạng thái đơn hàng với thông báo xác nhận tức thời",
-        "Tối ưu hiệu suất backend với NestJS và MySQL",
-        "Giao diện responsive, hỗ trợ cả web và mobile",
-        "Bảo mật dữ liệu người dùng với xác thực và mã hóa"
+        "Food ordering platform với NestJS, React, và MySQL",
+        "Menu browsing và order placement",
+        "Price calculation và order tracking",
+        "Restaurant management cho online orders",
+        "Efficient order management system"
       ]
-    },
-
-    {
-  "id": "5",
-  "src": "/img/readtruyen/a1.png",
-  "title": "React API Read Truyện",
-  "description": "Một ứng dụng đọc truyện trực tuyến sử dụng React và API để tải dữ liệu truyện từ server. Ứng dụng hỗ trợ tìm kiếm truyện, phân loại theo thể loại, và cung cấp giao diện quản lý truyện cho admin. Tích hợp tính năng đăng nhập/đăng ký và tối ưu trải nghiệm đọc trên cả desktop và mobile.",
-  "github": "https://github.com/AnhBoHelloTeam/ReactAPIReadTruyenNhanNG",
-  "demo": "https://reactapireadtruyennhanng.onrender.com/",
-  "loginImages": ["/img/readtruyen/add1.png", "/img/readtruyen/add2.png"],
-  "adminInterfaceImages": ["/img/readtruyen/a1.png", "/img/readtruyen/a2.png", "/img/readtruyen/a3.png"],
-  "userInterfaceImages": ["/img/readtruyen/u1.png", "/img/readtruyen/u2.png", "/img/readtruyen/u3.png"],
-  "additionalImages": ["/img/readtruyen/add1.png", "/img/readtruyen/add2.png"],
-  "features": [
-    "Tìm kiếm và phân loại truyện theo thể loại, tác giả",
-    "Hỗ trợ đăng nhập/đăng ký với xác thực JWT",
-    "Giao diện admin để quản lý truyện và người dùng",
-    "Tối ưu hiệu suất với lazy loading cho hình ảnh và dữ liệu",
-    "Hiển thị chi tiết truyện với nội dung động từ API",
-    "Responsive design, thân thiện trên mọi thiết bị",
-    "Tích hợp hệ thống đánh dấu trang và lịch sử đọc",
-    "Hỗ trợ đa ngôn ngữ để tiếp cận người dùng toàn cầu"
-  ]
-}
+    }
   ],
   "testimonial": [
     {
       "id": "1",
       "count": "5",
       "src": "/img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "description": "Nhan was a great help in our automation project. Even though he is still a student, he quickly learned how to use n8n and contributed to setting up workflows that saved us a lot of time. He is eager to learn and easy to work with.",
+      "author_name": "Anh Bo",
+      "author_designation": "Project Manager",
+      "author_company": "COWI Autobiz"
     },
     {
       "id": "2",
       "count": "5",
       "src": "/img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
+      "description": "During the development of our souvenir e-commerce platform, Nhan was responsible for several key features like the chat system and real-time notifications. He was always ready to take feedback and improve the work. His enthusiasm made the project move forward smoothly.",
+      "author_name": "NhanNG",
+      "author_designation": "Team Leader",
+      "author_company": "ICT Đông Á"
     },
     {
       "id": "3",
       "count": "5",
       "src": "/img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "description": "We worked with Nhan on a small web application project for our business. He communicated clearly, delivered on time, and was open to suggestions. For a developer at his stage, his attention to detail and willingness to solve problems is impressive.",
+      "author_name": "Sarah Williams",
+      "author_designation": "Owner",
+      "author_company": "Freelance Client (Upwork)"
     }
   ]
 }

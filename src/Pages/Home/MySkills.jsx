@@ -37,7 +37,7 @@ export default function MySkills() {
                   width: "100%",
                   height: "100%",
                   objectFit: "contain",
-                  backgroundColor: "transparent", // 👈 đảm bảo ảnh không bị nền
+                  backgroundColor: "transparent", 
                 }}
               />
             </div>

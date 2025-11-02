@@ -1,54 +1,35 @@
 import data from "../../data/index.json";
-import { Link } from "react-router-dom";
 
 export default function MyPortfolio() {
   const buttonStyle = {
-    padding: "8px 14px",
+    padding: "10px 20px",
     color: "#fff",
     border: "none",
-    borderRadius: "6px",
+    borderRadius: "8px",
     cursor: "pointer",
     fontSize: "14px",
-    width: "100%",
+    fontWeight: "600",
+    transition: "all 0.3s ease",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: "8px",
+    textDecoration: "none",
   };
 
   const githubButtonStyle = {
     ...buttonStyle,
-    backgroundColor: "#24292f",
+    background: "linear-gradient(135deg, #24292f 0%, #1a1d23 100%)",
   };
 
   const demoButtonStyle = {
     ...buttonStyle,
-    backgroundColor: "#0366d6",
-  };
-
-  const detailsButtonStyle = {
-    ...buttonStyle,
-    backgroundColor: "#28a745",
+    background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
   };
 
   const githubLinkStyle = {
     textDecoration: "none",
-  };
-
-  const cardStyle = {
-    width: "100%",
-    maxWidth: "360px",
-    minHeight: "500px",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "space-between",
-    padding: "16px",
-    borderRadius: "10px",
-    boxShadow: "0 4px 10px rgba(0,0,0,0.05)",
-    backgroundColor: "#fff",
-    boxSizing: "border-box",
-  };
-
-  const imageStyle = {
-    width: "100%",
-    height: "500px",
-    borderRadius: "8px",
+    flex: 1,
   };
 
   return (
@@ -101,50 +82,56 @@ export default function MyPortfolio() {
         </div>
       </div>
 
-      <div
-        className="portfolio--section--container"
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          gap: "20px",
-          justifyContent: "center",
-          marginTop: "20px",
-        }}
-      >
+      <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
-          <div key={index} style={cardStyle}>
-            <div className="portfolio--section--img">
-              <img src={item.src} alt={item.title} style={imageStyle} />
+          <div key={index} className="portfolio--card">
+            <div className="portfolio--image--wrapper">
+              <img src={item.src} alt={item.title} className="portfolio--image" />
+              <div className="portfolio--overlay"></div>
             </div>
 
-            <div className="portfolio--section--card--content" style={{ flexGrow: 1, marginTop: "16px" }}>
-              <h3 className="portfolio--section--title">{item.title}</h3>
-              <p className="text-md" style={{ minHeight: "60px" }}>
-                {item.description}
-              </p>
+            <div className="portfolio--card--content">
+              <h3 className="portfolio--card--title">{item.title}</h3>
+              <p className="portfolio--card--description">{item.description}</p>
 
-              <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                <a
-                  href={item.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={githubLinkStyle}
-                >
-                  <button style={githubButtonStyle}>GitHub</button>
-                </a>
+              <div className="portfolio--card--buttons">
+                {item.github && (
+                  <a
+                    href={item.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={githubLinkStyle}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.transform = "translateY(-2px)";
+                      e.currentTarget.style.boxShadow = "0 8px 16px rgba(0,0,0,0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.transform = "translateY(0)";
+                      e.currentTarget.style.boxShadow = "none";
+                    }}
+                  >
+                    <button style={githubButtonStyle}>GitHub</button>
+                  </a>
+                )}
 
-                <a
-                  href={item.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={githubLinkStyle}
-                >
-                  <button style={demoButtonStyle}>Live Demo</button>
-                </a>
-
-                <Link to={`/portfolio/${item.id}`} style={githubLinkStyle}>
-                  <button style={detailsButtonStyle}>Xem Chi Tiết</button>
-                </Link>
+                {item.demo && (
+                  <a
+                    href={item.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={githubLinkStyle}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.transform = "translateY(-2px)";
+                      e.currentTarget.style.boxShadow = "0 8px 16px rgba(102, 126, 234, 0.4)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.transform = "translateY(0)";
+                      e.currentTarget.style.boxShadow = "none";
+                    }}
+                  >
+                    <button style={demoButtonStyle}>Live Demo</button>
+                  </a>
+                )}
               </div>
             </div>
           </div>
