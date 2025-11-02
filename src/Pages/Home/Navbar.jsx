@@ -66,7 +66,18 @@ function Navbar() {
               <li>
                 <Link
                   to="/#MyPortfolio"
-                  onClick={closeMenu}
+                  onClick={(e) => {
+                    closeMenu();
+                    // If already on home, use scroll
+                    if (location.pathname === "/") {
+                      e.preventDefault();
+                      const element = document.getElementById("MyPortfolio");
+                      if (element) {
+                        element.scrollIntoView({ behavior: "smooth", block: "start" });
+                        window.scrollBy(0, -70); // Account for navbar
+                      }
+                    }
+                  }}
                   className="navbar--content"
                 >
                   Portfolio
@@ -75,7 +86,17 @@ function Navbar() {
               <li>
                 <Link
                   to="/#AboutMe"
-                  onClick={closeMenu}
+                  onClick={(e) => {
+                    closeMenu();
+                    if (location.pathname === "/") {
+                      e.preventDefault();
+                      const element = document.getElementById("AboutMe");
+                      if (element) {
+                        element.scrollIntoView({ behavior: "smooth", block: "start" });
+                        window.scrollBy(0, -70);
+                      }
+                    }
+                  }}
                   className="navbar--content"
                 >
                   About Me
@@ -84,7 +105,17 @@ function Navbar() {
               <li>
                 <Link
                   to="/#testimonial"
-                  onClick={closeMenu}
+                  onClick={(e) => {
+                    closeMenu();
+                    if (location.pathname === "/") {
+                      e.preventDefault();
+                      const element = document.getElementById("testimonial");
+                      if (element) {
+                        element.scrollIntoView({ behavior: "smooth", block: "start" });
+                        window.scrollBy(0, -70);
+                      }
+                    }
+                  }}
                   className="navbar--content"
                 >
                   Testimonials
@@ -93,7 +124,17 @@ function Navbar() {
               <li>
                 <Link
                   to="/#Contact"
-                  onClick={closeMenu}
+                  onClick={(e) => {
+                    closeMenu();
+                    if (location.pathname === "/") {
+                      e.preventDefault();
+                      const element = document.getElementById("Contact");
+                      if (element) {
+                        element.scrollIntoView({ behavior: "smooth", block: "start" });
+                        window.scrollBy(0, -70);
+                      }
+                    }
+                  }}
                   className="navbar--content"
                 >
                   Contact
